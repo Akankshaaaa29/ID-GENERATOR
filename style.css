@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    margin-left: 5%;
+}
+    @media screen and (max-width: 767px) {
+        img {
+            width: 100%; /* Adjust the width as per your requirement */
+            height: 100%; /* Maintain the aspect ratio */
+        }
+    }
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+.new{
+    margin-top: 20px;
+}
+#textpet {
+    padding-top: 30px;
+}
+
+
